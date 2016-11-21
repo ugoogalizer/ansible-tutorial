@@ -7,8 +7,8 @@
 
 vars_prompt:
     - name: "vcenter_pass"
-    prompt: "Enter vcenter password"
-    private: yes
+      prompt: "Enter vcenter password"
+      private: yes
 
 
 tasks:
