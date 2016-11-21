@@ -6,8 +6,8 @@
 # Note: vm_floppy support added in 2.0
 
 ---
-- name: create some vms
-  hosts: vmware
+-   name: create some vms
+    hosts: vmware
 
     vars_prompt:
         - name: "vcenter_pass"
