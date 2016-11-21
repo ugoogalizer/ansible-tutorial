@@ -1,5 +1,9 @@
 - hosts: ubuntu
   tasks:
    - name: Install vim
-     apt: pkg=vim state=installed update_cache=true
+     apt: name={{item}} state=installed update_cache=true
+     with_items:
+       - vim
+       - open-vm-tools
+       - openssh-server
      
