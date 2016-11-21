@@ -1,0 +1,5 @@
+- hosts: ubuntu
+  tasks:
+   - name: Install vim
+     apt: pkg=vim state=installed update_cache=true
+     
